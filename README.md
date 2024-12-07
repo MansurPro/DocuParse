@@ -44,7 +44,7 @@ DocuParse/
 ### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/<your-username>/DocuParse.git
+git clone https://github.com/MansurPro/DocuParse.git
 cd DocuParse
 ```
 
