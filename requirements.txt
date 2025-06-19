@@ -1,0 +1,8 @@
+pdfminer.six
+pytesseract
+transformers
+torch
+pdf2image
+pillow
+numpy
+tqdm
