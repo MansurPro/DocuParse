@@ -76,6 +76,7 @@ python convert.py /path/to/input/folder /path/to/output/folder --workers 10 --ma
 |----------------------------------------|---------------------------------------|
 | Textbook: Think Python                 | [View](examples/thinkpython.md)       |
 | Scientific Paper: Switch Transformers  | [View](examples/switch_transformers.md) |
+| Simple Example | [View](examples/sample.md) |
 
 ---
 
