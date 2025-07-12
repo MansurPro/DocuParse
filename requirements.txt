@@ -6,3 +6,8 @@ pdf2image
 pillow
 numpy
 tqdm
+click
+fastapi
+uvicorn
+gradio
+requests
