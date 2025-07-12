@@ -58,14 +58,24 @@ pip install -r requirements.txt
 
 ### **3. Convert a Single File**
 
+Use the ``docuparse`` CLI to convert a PDF into Markdown:
+
 ```bash
-python convert_single.py /path/to/file.pdf /path/to/output.md --parallel_factor 2 --max_pages 10
+python -m docuparse.cli convert /path/to/file.pdf /path/to/output.md --max-pages 10
 ```
 
-### **4. Convert Multiple Files**
+### **4. Run the API Server**
+
+Start a FastAPI server that exposes a ``/convert`` endpoint:
 
 ```bash
-python convert.py /path/to/input/folder /path/to/output/folder --workers 10 --max 10
+uvicorn docuparse.fastapi_app:app --reload
+```
+
+### **5. Launch the Gradio UI**
+
+```bash
+python -m docuparse.gradio_app
 ```
 
 ---
